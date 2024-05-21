@@ -33,6 +33,19 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(60deg);
   }
+}
+/* styles.css */
+.icon-container {
+  border: none; /* Elimina el borde */
+}
+/* styles.css */
+.nav-link-with-space {
+  margin-right: 10px; /* Agrega un poco de espacio a la derecha de cada enlace */
+}
+
+.nav-link-with-space:hover {
+  color: #ff0000; /* Cambia el color del texto al hacer hover sobre el enlace */
+font-weight: bold;
 }
